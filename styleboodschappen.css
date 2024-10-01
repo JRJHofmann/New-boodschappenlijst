@@ -1,0 +1,89 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: 'Sans-Seriff';
+    margin-top: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: DodgerBlue;
+    color: white;
+}
+
+.numbers {
+    text-align: right;
+}
+.tekst{
+    text-align: left;
+}
+
+.error{
+    color: red;
+    margin-top: 2px;
+    font-size: small;
+}
+
+input[type=text], [type=number] {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit]{
+    background-color: DodgerBlue;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #004d99;
+  }
+
+#formCss{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #A9A9A9;
+    color: black;
+}
+
+li a.active {
+    background-color: lightblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
